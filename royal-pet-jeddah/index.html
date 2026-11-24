@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>عيادات رويال البيطرية | جدة — المحمدية (نموذج مقترح)</title>
+<meta name="description" content="نموذج تصميم مقترح لعيادات رويال البيطرية في حي المحمدية بجدة.">
+<meta name="theme-color" content="#0E4D58">
+<link rel="preload" href="fonts/alexandria-arabic-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230E4D58'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23F07A1A'/%3E%3C/svg%3E">
+</head>
+<body>
+<p class="proposal" role="note">نموذج تصميم مقترح للمعاينة — غير معتمد رسمياً من العيادة.</p>
+<header class="top">
+  <a class="brand" href="#main"><span class="dot" aria-hidden="true"></span>رويال<span class="sub">العيادات البيطرية · جدة</span></a>
+  <nav aria-label="أقسام الصفحة"><a href="#care">الخدمات</a><a href="#urgent">الحالات العاجلة</a><a href="#visit">الموقع</a></nav>
+  <a class="call" href="tel:920035264"><span dir="ltr">9200 35264</span></a>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="h1">
+    <div class="hero-text">
+      <p class="status" id="status" aria-live="polite"><span class="pulse" aria-hidden="true"></span><span id="status-text">أوقات العمل</span></p>
+      <h1 id="h1">رعاية طبية وجراحية<br>لأليفك، حتى منتصف الليل.</h1>
+      <p class="lede">عيادة بيطرية في حي المحمدية بجدة، بجوار جرير مول. اتصل على الرقم الموحد أو اطلب موعداً من هنا.</p>
+      <div class="actions">
+        <a class="btn" href="#book">اطلب موعداً</a>
+        <a class="btn ghost" href="tel:920035264">اتصل الآن</a>
+      </div>
+    </div>
+    <aside class="hours" aria-labelledby="hh">
+      <h2 id="hh">أوقات العمل</h2>
+      <table>
+        <tbody id="hours-body"></tbody>
+      </table>
+      <p class="fine">كما هي منشورة في حساب العيادة على إنستقرام.</p>
+    </aside>
+  </section>
+
+  <section class="facts" aria-label="حضور العيادة">
+    <p><b>٢٬٧٩٩</b> مراجعة على خرائط Google</p>
+    <p><b>٢٣ ألف</b> متابع على إنستقرام</p>
+    <p><b>٧ أيام</b> في الأسبوع</p>
+  </section>
+
+  <section class="care" id="care" aria-labelledby="c">
+    <h2 id="c">ماذا تقدم العيادة</h2>
+    <div class="care-grid">
+      <article>
+        <h3>الرعاية الطبية</h3>
+        <p>الكشف والمتابعة والعلاج لأليفك، مع فريق يشرح لك الحالة والخطوة التالية بوضوح.</p>
+      </article>
+      <article>
+        <h3>الجراحة</h3>
+        <p>عمليات جراحية داخل العيادة، مع متابعة بعد العملية حتى يتعافى أليفك.</p>
+      </article>
+      <article class="bring">
+        <h3>قبل أول زيارة، أحضر معك</h3>
+        <ul>
+          <li>كرت التطعيمات إن وُجد.</li>
+          <li>أي تقارير أو تحاليل سابقة.</li>
+          <li>حقيبة نقل للقطط، ورباطاً للكلاب.</li>
+          <li>اسم الطعام الذي يأكله أليفك حالياً.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section class="urgent" id="urgent" aria-labelledby="u">
+    <div>
+      <h2 id="u">متى تتصل فوراً ولا تنتظر الموعد</h2>
+      <p>هذه علامات تستدعي الاتصال بالعيادة مباشرة:</p>
+    </div>
+    <ol>
+      <li>صعوبة في التنفس، أو لثة شاحبة أو زرقاء.</li>
+      <li>الاشتباه بتناول مادة سامة أو دواء بشري.</li>
+      <li>قطة ذكر تحاول التبول ولا يخرج شيء.</li>
+      <li>نزيف لا يتوقف، أو إصابة بعد سقوط أو حادث.</li>
+      <li>قيء أو إسهال متكرر مع خمول واضح.</li>
+    </ol>
+    <a class="btn light" href="tel:920035264">اتصل على <span dir="ltr">9200 35264</span></a>
+  </section>
+
+  <section class="book" id="book" aria-labelledby="bk">
+    <h2 id="bk">اطلب موعداً</h2>
+    <form id="f" novalidate>
+      <div class="row">
+        <label>نوع الأليف
+          <select name="pet"><option>قطة</option><option>كلب</option><option>طائر</option><option>أرنب</option><option>آخر</option></select>
+        </label>
+        <label>اسمه <span class="opt">(اختياري)</span>
+          <input name="petname" maxlength="30">
+        </label>
+      </div>
+      <label>سبب الزيارة
+        <select name="reason"><option>كشف عام</option><option>متابعة حالة</option><option>استشارة جراحية</option><option>أخرى</option></select>
+      </label>
+      <label>اليوم المفضل
+        <input type="date" name="day" required>
+      </label>
+      <p class="err" id="err" hidden>اختر اليوم المفضل للزيارة.</p>
+      <button class="btn" type="submit">اطلب موعداً</button>
+    </form>
+    <div class="out" id="out" hidden>
+      <p><b>طلبك جاهز للإرسال</b></p>
+      <pre id="msg"></pre>
+      <p class="fine">نسخة معاينة: في الموقع المعتمد يُرسل الطلب إلى واتساب العيادة. لا تُحفظ أي بيانات.</p>
+    </div>
+  </section>
+
+  <section class="visit" id="visit" aria-labelledby="v">
+    <h2 id="v">الموقع</h2>
+    <p>شارع صفية بنت عبد المطلب، حي المحمدية، بجوار جرير مول — جدة.</p>
+    <a class="btn ghost" href="https://goo.gl/maps/8goTUCxgFj7yxtBM8" target="_blank" rel="noopener">افتح الموقع في الخرائط</a>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>عيادات رويال البيطرية — جدة</p>
+  <p><a href="https://www.instagram.com/royalpetvc/" target="_blank" rel="noopener">إنستقرام</a> · <a href="https://www.snapchat.com/add/royalvetclinic" target="_blank" rel="noopener">سناب شات</a></p>
+  <p class="fine">نموذج تصميم مقترح أعدّه مصمم مستقل للمعاينة فقط، وغير معتمد من العيادة. الخدمات التفصيلية والأسعار تُضاف بعد اعتمادها من العيادة.</p>
+</footer>
+<script src="main.js" defer></script>
+</body>
+</html>

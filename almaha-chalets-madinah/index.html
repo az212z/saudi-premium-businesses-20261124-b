@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>شاليهات المها | المدينة المنورة — حجز يومي (نموذج مقترح)</title>
+<meta name="description" content="نموذج تصميم مقترح لشاليهات المها في المدينة المنورة: قسمان متطابقان للإيجار اليومي.">
+<meta name="theme-color" content="#141933">
+<link rel="preload" href="fonts/baloo-bhaijaan-2-arabic-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23141933'/%3E%3Crect x='4' y='18' width='24' height='8' rx='4' fill='%235CC8C9'/%3E%3Ccircle cx='23' cy='9' r='4' fill='%23F2B544'/%3E%3C/svg%3E">
+</head>
+<body>
+<p class="proposal" role="note">نموذج تصميم مقترح للمعاينة — غير معتمد رسمياً من شاليهات المها.</p>
+<header class="top">
+  <a class="brand" href="#main">المها<span>شاليهات · المدينة المنورة</span></a>
+  <a class="pill" href="#book">اطلب الحجز</a>
+</header>
+
+<main id="main">
+  <section class="hero" aria-labelledby="h">
+    <div class="sky" aria-hidden="true"><span class="moon"></span></div>
+    <div class="hero-in">
+      <h1 id="h">قسم كامل<br>لعائلتك.</h1>
+      <p class="lede">قسمان متطابقان للإيجار اليومي في المدينة المنورة. احجز قسماً لعائلتك، أو القسمين لمناسبة أكبر.</p>
+    </div>
+    <form class="ticket" id="book" novalidate aria-labelledby="tk">
+      <h2 id="tk">اطلب الحجز</h2>
+      <fieldset class="sides">
+        <legend>القسم</legend>
+        <label><input type="radio" name="side" value="القسم الأول" checked><span>الأول</span></label>
+        <label><input type="radio" name="side" value="القسم الثاني"><span>الثاني</span></label>
+        <label><input type="radio" name="side" value="القسمين معاً"><span>القسمين</span></label>
+      </fieldset>
+      <div class="two">
+        <label>تاريخ الوصول<input type="date" name="from" required></label>
+        <label>عدد الليالي
+          <select name="nights"><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option></select>
+        </label>
+      </div>
+      <label>المناسبة <span class="opt">(اختياري)</span>
+        <select name="occ"><option value="">بدون تحديد</option><option>اجتماع عائلي</option><option>نهاية أسبوع</option><option>مناسبة خاصة</option></select>
+      </label>
+      <p class="err" id="err" hidden>اختر تاريخ الوصول.</p>
+      <button type="submit" class="go">اطلب الحجز</button>
+      <div class="out" id="out" hidden>
+        <pre id="msg"></pre>
+        <p class="fine">نسخة معاينة: في الموقع المعتمد يُرسل الطلب إلى واتساب الشاليهات لتأكيد التوفر والسعر.</p>
+      </div>
+    </form>
+  </section>
+
+  <section class="twin" aria-labelledby="t">
+    <h2 id="t">قسمان، نفس التجربة</h2>
+    <p class="sub">كل قسم مستقل بمدخله، ومتطابق مع الآخر. لذلك تعرف ما ستحصل عليه أياً كان القسم المتاح.</p>
+    <div class="mirror">
+      <div class="side-card"><b>١</b><p>القسم الأول</p><span>مكان صور القسم من حساب الشاليهات</span></div>
+      <div class="axis" aria-hidden="true"></div>
+      <div class="side-card"><b>٢</b><p>القسم الثاني</p><span>مكان صور القسم من حساب الشاليهات</span></div>
+    </div>
+  </section>
+
+  <section class="how" aria-labelledby="hw">
+    <h2 id="hw">الحجز عبر واتساب، لا عبر الرسائل الخاصة</h2>
+    <p class="sub">رسائل إنستقرام الخاصة لا تُتابع. أسرع طريق للرد هو واتساب، وهذا النموذج يجهّز رسالتك كاملة.</p>
+    <ol class="steps">
+      <li><span>١</span>اختر القسم والتاريخ وعدد الليالي.</li>
+      <li><span>٢</span>تُرسل الطلب برسالة واتساب جاهزة.</li>
+      <li><span>٣</span>تؤكد الإدارة التوفر والسعر وطريقة الدفع.</li>
+    </ol>
+  </section>
+
+  <section class="near" aria-label="حضور الشاليهات">
+    <p><b>٤٫٤</b><span>تقييم خرائط Google من ٢١٩ مراجعة</span></p>
+    <p><b>١١ ألف</b><span>متابع على إنستقرام</span></p>
+    <p class="fine">كما ظهرت في الحسابات العامة بتاريخ ٢٤ نوفمبر ٢٠٢٦.</p>
+  </section>
+</main>
+
+<footer class="foot">
+  <p class="brand">المها<span>شاليهات · المدينة المنورة</span></p>
+  <p><a href="https://www.instagram.com/almaha_resorts/" target="_blank" rel="noopener">إنستقرام</a> · <a href="https://www.tiktok.com/@almaha_resorts" target="_blank" rel="noopener">تيك توك</a> · <a href="https://www.snapchat.com/add/almaha_resorts" target="_blank" rel="noopener">سناب شات</a></p>
+  <p class="fine">نموذج تصميم مقترح أعدّه مصمم مستقل للمعاينة فقط، وغير معتمد من شاليهات المها. المرافق والأسعار والصور تُضاف بعد اعتمادها من الإدارة.</p>
+</footer>
+<script src="main.js" defer></script>
+</body>
+</html>
