@@ -1,3 +1,10 @@
+// RTL date fix: Chrome renders the empty date placeholder reversed in Arabic locales.
+document.querySelectorAll("input[type=date]").forEach((d) => {
+  const toText = () => { if (!d.value) { d.type = "text"; d.placeholder = "اختر التاريخ"; } };
+  d.addEventListener("focus", () => { if (d.type !== "date") { d.type = "date"; try { d.showPicker(); } catch {} } });
+  d.addEventListener("blur", toText); toText();
+});
+
 // Preview build: no network, no storage. Hours are as published on the clinic's Instagram (checked 2026-11-24).
 const WA = ""; // set after approval
 const DAYS = ["الأحد", "الإثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"];

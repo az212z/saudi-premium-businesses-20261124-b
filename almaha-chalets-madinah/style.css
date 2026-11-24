@@ -35,7 +35,7 @@ legend{font-size:14px;font-weight:600;margin-bottom:8px;padding:0}
 .sides input:focus-visible+span{outline:3px solid var(--lamp);outline-offset:2px}
 .two{display:grid;grid-template-columns:1.4fr 1fr;gap:12px}
 .ticket label{display:grid;gap:6px;font-size:14px;font-weight:600}
-.ticket input[type=date],.ticket select{font:inherit;font-size:16px;color:var(--night);background:#fff;border:2px solid #9AA2C2;border-radius:12px;padding:10px 12px;width:100%}
+.ticket input[name=from],.ticket select{font:inherit;font-size:16px;color:var(--night);background:#fff;border:2px solid #9AA2C2;border-radius:12px;padding:10px 12px;width:100%}
 .ticket input:focus,.ticket select:focus{outline:none;border-color:var(--night)}
 .opt{color:#59607d;font-weight:400}
 .err{color:#A3240F;font-size:14px}
@@ -69,7 +69,7 @@ section h2{font-size:clamp(32px,4.2vw,56px)}
 
 @media (max-width:900px){
   .hero{grid-template-columns:1fr}
-  .moon{inset-inline-end:10%;top:4%;width:52px;height:52px}
+  .moon{inset-inline-start:auto;inset-inline-end:6%;top:3%;width:44px;height:44px}
   .steps{grid-template-columns:1fr}
   .near{grid-template-columns:1fr 1fr}
   .near .fine{grid-column:1/-1}

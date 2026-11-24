@@ -1,3 +1,10 @@
+// RTL date fix: Chrome renders the empty date placeholder reversed in Arabic locales.
+document.querySelectorAll("input[type=date]").forEach((d) => {
+  const toText = () => { if (!d.value) { d.type = "text"; d.placeholder = "اختر التاريخ"; } };
+  d.addEventListener("focus", () => { if (d.type !== "date") { d.type = "date"; try { d.showPicker(); } catch {} } });
+  d.addEventListener("blur", toText); toText();
+});
+
 // Preview build: no network, no storage. After approval, set WA to the chalet's WhatsApp number.
 const WA = "";
 const form = document.getElementById("book"), from = form.elements.from;
